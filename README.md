@@ -2,23 +2,23 @@
 
 ## Library management System Using Laravel + VueJs & TailwindCss
 ## Installation
-    #First Clone The repository
-    #Then Run command:
+    1. First Clone The repository
+    2. Then Run command:
         composer install
-    #Install NPM:
+    3. Install NPM:
         npm install
-    #Install NPM dependencies:
+    4. Install NPM dependencies:
        npm ci
-    #Build assets:
+    5. Build assets:
         npm run dev
-    #Setup Configuration
+    6. Setup Configuration
         cp .env.example .env
-    #Generate Key
+    7. Generate Key
         php artisan key:generate
-    #Create a database in MySQL/SqLite
-    # Run database migrations
+    8. Create a database in MySQL/SqLite
+    9. Run database migrations
         php artisan migrate
-    #Run the dev server
+    10. Run the dev server
         php artisan serve
         
 ## Learning Laravel
